@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 1200px;
+}
+
+body{
+    background-color: rgb(209, 206, 206);
+    width: 1200px;
+}
+
+h1, h2, h3, p, li{
+    margin: 7px;
+}
+
+li{
+    margin-left: 35px;
+    margin-top: 1px;
+}
+
+span{
+    margin: 10px;
+    font-size: 25px;
+}
+
+section{
+    font-size: 18px;
+    border: solid 0px;
+    background-color: white;
+    margin: 20px 0px 10px 0px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.nome{
+    font-size: 29px;
+    padding-bottom: 15px;
+    font-weight: 100;
+}
+
+.objetivo{
+    padding-bottom: 60px;
+}
+
+.idiomas{
+    padding-bottom: 40px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
