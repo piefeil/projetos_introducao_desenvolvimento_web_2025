@@ -1,0 +1,119 @@
+:root{
+    --color-primary:#8C2703;
+    --color-secondary:#D9753B;
+    --color-tertiary:#688C86;
+    --color-shadow:#31423f;
+    --color-background:#f8f0e2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.piedra-regular {
+    font-family: "Piedra", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header{
+    font-size: 60px;
+    text-shadow: -10px 7px #31423f;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    text-align: 20px 400px 20px 20px;
+    padding: 15px;
+}
+
+header h1 {
+    margin-left: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+}
+
+header img {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 150px;
+    align-items: center;
+}
+
+#menu{
+    list-style: none;
+    background-color: var(--color-tertiary);
+    padding: 2px;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font: bold;
+    display: inline-block;
+}
+
+main{
+    background-color: var(--color-background);
+}
+
+body{
+    background-color: var(--color-background);
+}
+
+footer {
+    background-color: var(--color-shadow);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer nav {
+    margin: 10px 0;
+}
+
+.footer nav a {
+    color: var(--color-background);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer nav a::hover {
+    text-decoration: underline;
+}
+
+.rede-social {
+    margin-top: 10px;
+    color: var(--color-background);
+}
+
+.rede-social a img {
+    width: 24px;
+    margin: 0 10px;
+}

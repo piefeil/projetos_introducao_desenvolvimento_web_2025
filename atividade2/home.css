@@ -1,0 +1,65 @@
+:root{
+    --color-primary:#8C2703;
+    --color-secondary:#D9753B;
+    --color-tertiary:#688C86;
+    --color-shadow:#31423f;
+    --color-background:#f8f0e2;
+}
+
+header{
+    font-size: 60px;
+    text-shadow: -10px 7px #31423f;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    text-align: 20px 400px 20px 20px;
+    padding: 15px;
+}
+
+section {
+    color: var(--color-background);
+    font-size: 20px;
+    border: solid 0px;
+    border-radius: 15px;
+    background-color: var(--color-secondary);
+    margin: 30px 30px 50px 30px;
+    padding: 20px 20px 10px 20px;
+    box-shadow: -10px 7px var(--color-shadow);
+}
+
+section, p {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+section, h1 {
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#quem_somos, #valores, #buscamos {
+    box-sizing: border-box;
+    margin-right: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quem_somos img {
+    margin-left: 1300px;
+    margin-top: -280px;
+    margin-bottom: 0px;
+    max-width: 400px;
+}
+
+#valores img {
+    margin-left: 1300px;
+    margin-top: -300px;
+    margin-bottom: 0px;
+    max-width: 300px;
+}
+
+#buscamos img {
+    margin-left: 1300px;
+    margin-top: -300px;
+    margin-bottom: 0px;
+    max-width: 400px;
+}
