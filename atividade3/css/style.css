@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #006600; 
+    --secondary-color: #FFD700; 
+    --background-color: #FFF5CC; 
+    --text-color: #333; 
+}
+
+@font-face {
+    font-family:'splashpoint';
+    src: url(../font/splashpoint.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        -30deg, 
+        #FFCC29 20%,
+        #C1272D 40%,
+        #009739 80%
+    );
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    position: absolute;
+    width: 120px;
+    z-index: 2;
+}
+
+.title {
+    font-family: 'splashpoint', 'arial';
+    font-weight: normal;
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    text-shadow: -3px 3px 0px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.navbar {
+    background-color: black;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background-color:black;
+}
+
+.nav-item-dropdown {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 10px 0;
+    list-style-type: none;
+    margin: 0;
+    min-width: 160px;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.nav-item-dropdown:hover .dropdown {
+    display: block;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(99, 170, 118);
+}
+
+footer {
+    padding: 7px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
