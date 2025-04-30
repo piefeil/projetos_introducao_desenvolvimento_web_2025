@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atividades Interativas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="#at1">1. Alô Mundo</a>
+    <a href="#at2">2. Número Informado</a>
+    <a href="#at3">3. Soma de Dois Números</a>
+    <a href="#at4">4. Média Bimestral</a>
+    <a href="#at5">5. Metros para Centímetros</a>
+    <a href="#at6">6. Área do Círculo</a>
+    <a href="#at7">7. Área e Dobro do Quadrado</a>
+    <a href="#at8">8. Cálculo Salarial</a>
+    <a href="#at9">9. Fahrenheit para Celsius</a>
+    <a href="#at10">10. Celsius para Fahrenheit</a>
+  </nav>
+
+  <main>
+    <section id="at1"><h2>1. Alô Mundo</h2><div class="resultado">Alô mundo!</div></section>
+
+    <section id="at2">
+      <h2>2. Número Informado</h2>
+      <input type="number" id="numero2" placeholder="Digite um número" />
+      <button onclick="mostrarNumero()">Mostrar</button>
+      <div id="res2" class="resultado"></div>
+    </section>
+
+    <section id="at3">
+      <h2>3. Soma de Dois Números</h2>
+      <input type="number" id="n3a" placeholder="Primeiro número" />
+      <input type="number" id="n3b" placeholder="Segundo número" />
+      <button onclick="somar()">Somar</button>
+      <div id="res3" class="resultado"></div>
+    </section>
+
+    <section id="at4">
+      <h2>4. Média Bimestral</h2>
+      <input type="number" id="n4a" placeholder="Nota 1" />
+      <input type="number" id="n4b" placeholder="Nota 2" />
+      <input type="number" id="n4c" placeholder="Nota 3" />
+      <input type="number" id="n4d" placeholder="Nota 4" />
+      <button onclick="media()">Calcular Média</button>
+      <div id="res4" class="resultado"></div>
+    </section>
+
+    <section id="at5">
+      <h2>5. Metros para Centímetros</h2>
+      <input type="number" id="n5" placeholder="Valor em metros" />
+      <button onclick="converterMetros()">Converter</button>
+      <div id="res5" class="resultado"></div>
+    </section>
+
+    <section id="at6">
+      <h2>6. Área do Círculo</h2>
+      <input type="number" id="raio" placeholder="Raio do círculo" />
+      <button onclick="areaCirculo()">Calcular área</button>
+      <div id="res6" class="resultado"></div>
+    </section>
+
+    <section id="at7">
+      <h2>7. Área e Dobro da Área de um Quadrado</h2>
+      <input type="number" id="lado" placeholder="Lado do quadrado" />
+      <button onclick="areaQuadrado()">Calcular</button>
+      <div id="res7" class="resultado"></div>
+    </section>
+
+    <section id="at8">
+      <h2>8. Cálculo Salarial</h2>
+      <input type="number" id="valorHora" placeholder="Valor por hora" />
+      <input type="number" id="horasMes" placeholder="Horas no mês" />
+      <button onclick="calcularSalario()">Calcular Salário</button>
+      <div id="res8" class="resultado"></div>
+    </section>
+
+    <section id="at9">
+      <h2>9. Fahrenheit para Celsius</h2>
+      <input type="number" id="f" placeholder="Temperatura em Fahrenheit" />
+      <button onclick="fToC()">Converter</button>
+      <div id="res9" class="resultado"></div>
+    </section>
+
+    <section id="at10">
+      <h2>10. Celsius para Fahrenheit</h2>
+      <input type="number" id="c" placeholder="Temperatura em Celsius" />
+      <button onclick="cToF()">Converter</button>
+      <div id="res10" class="resultado"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
