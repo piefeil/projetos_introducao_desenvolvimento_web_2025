@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contato</title>
+    <link rel="stylesheet" href="styles/cadastro.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Cadastro de Contato</h1>
+    </header>
+
+    <div class="wrapper">
+        <div class="container">
+
+            <form id='form'action="">
+                <div class="form-bloco">
+                    <div class="form-main">
+                        <div class="nome-e-sobrenome">
+                            <div class="nome">
+                                <label for="usuario">Nome</label>
+                                <input type="text" id="usuario" required>
+                            </div>
+                            <div class="sobrenome">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" id="sobrenome" required>
+                            </div>
+                        </div>
+
+                        <div class="endereco">
+                            <label for="endereco">Endereço</label>
+                            <input type="text" id="endereco" required>
+                        </div>
+
+                        <div class="telefone">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" required>
+                        </div>
+                    </div>
+
+                    <div class="button-inferior">
+                        <button type="submit" id="button-primeiro" class="button-navegacao">|<</button>
+                        <button type="submit" id="button-anterior" class="button-navegacao"><</button>
+                        <button type="submit" id="button-proximo" class="button-navegacao">></button>
+                        <button type="submit" id="button-ultimo" class="button-navegacao">>|</button>
+                    </div>
+                </div>
+
+                <div class="button-superior">
+                    <button type="submit" id="button-incluir" class="button-lateral">INCLUIR</button>
+                    <button type="submit" id="button-editar" class="button-lateral">EDITAR</button>
+                    <button type="submit" id="button-salvar" class="button-lateral">SALVAR</button>
+                    <button type="submit" id="button-cancelar" class="button-lateral">CANCELAR</button>
+                    <button type="submit" id="button-excluir" class="button-lateral">EXCLUIR</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <footer>
+        <p class="footer">AGENDA DE CONTATOS</p>
+    </footer>
+
+    <script src="scripts/cadastros.js"></script>
+</body>
+</html>
